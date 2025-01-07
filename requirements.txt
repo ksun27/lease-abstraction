@@ -1,0 +1,22 @@
+# Core libraries
+sentence-transformers==3.3.1  # For the all-MiniLM embedding model
+chromadb==0.6.1             # For the vector database
+pdfplumber==0.11.5         # For extracting text from PDFs
+
+# Streamlit for UI
+streamlit==1.41.0           # For building the web interface
+huggingface_hub==0.25.0
+pydantic-settings==2.7.1
+pysqlite3-binary==0.5.4
+
+# # OpenAI for ChatGPT API
+# openai==0.27.8               # For interacting with ChatGPT
+
+# # Additional dependencies
+# numpy==1.24.3                # For numerical computations (used internally by embeddings)
+# requests==2.31.0             # For API calls and HTTP requests
+# python-dotenv==1.0.0         # For managing environment variables securely
+# pandas==2.1.1                # For data manipulation (optional but helpful)
+
+# # Optional dependencies for local development
+# uvicorn==0.23.1              # For running a FastAPI server if needed
